@@ -2,9 +2,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    background-color: rgba(158, 219, 45, 0.185);
 }
 
 
 svg{
-    background: rgb(6, 135, 255);
+    background: rgba(195, 197, 199, 0.616);
+    box-shadow: 0 0 10px ;
+    margin-top: 8rem;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+}
+#tooltip{
+    visibility: hidden;
+    width: auto;
+    height: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.legend{
+    font-family: monospace;
+    font-size: 1.5rem;
+
 }
