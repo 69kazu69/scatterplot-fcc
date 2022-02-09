@@ -3,16 +3,16 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(158, 219, 45, 0.185);
+    background-color: rgba(66, 45, 45, 0.185);
 }
 
 
 svg{
-    background: rgba(195, 197, 199, 0.616);
+    background: rgba(255, 255, 255, 0.616);
     box-shadow: 0 0 10px ;
     margin-top: 8rem;
-    border-radius: 10px;
     margin-bottom: 4rem;
+    border: 1px solid #000;
 }
 #tooltip{
     visibility: hidden;
@@ -21,9 +21,20 @@ svg{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 1rem;
     font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem;
+    padding: 0.5rem;
 }
-.legend{
+
+#legend{
     font-family: monospace;
     font-size: 1.5rem;
+    border: 1px solid #000;
+    padding: 1rem;
 
+}
+.dot:hover{
+    fill: aliceblue;
+    
 }
